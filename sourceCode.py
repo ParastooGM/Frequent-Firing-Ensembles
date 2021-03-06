@@ -564,11 +564,8 @@ app.layout = html.Div([
 
     dbc.Row((dbc.Col((html.Br())))),
     dbc.Row((dbc.Col((html.Br())))),
-    dbc.Row((dbc.Col((html.A('Back to top', href='#top')),width={ "offset": 1}))),
-    dbc.Row((dbc.Col((html.Br())))),
-    dbc.Row((dbc.Col((html.Br())))),
-    dbc.Row((dbc.Col((html.Hr())))),
-    dbc.Row((dbc.Col((html.Br())))),
+    dbc.Row((dbc.Col(html.Div(html.A('Back to top', href='#top' , style={'color' : 'white', 'margin-left' : '15px'})),style ={'background-color' : '#78c2ad' , 'height': '50px', 'padding-top' : '10px'}))),
+    dbc.Row((dbc.Col(html.Div(html.H3('© McGill Data Mining & Security Lab 2021', style={'color' : 'white', 'margin-left' : 'auto', 'margin-right' : 'auto' , 'text-align' : 'center' , 'font-size': '0.90rem'})),style ={'background-color' : '#78c2ad' , 'padding-bottom' : '10px'}))),
     ])
 
 
