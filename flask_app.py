@@ -5,7 +5,7 @@ server = Flask(__name__)
 
 @server.route('/')
 def Hello_world():
-    print("Hello")
+    return "Hello"
 
 
 from mlxtend.frequent_patterns import fpgrowth
